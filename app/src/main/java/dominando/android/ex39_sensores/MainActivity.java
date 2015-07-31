@@ -36,6 +36,8 @@ public class MainActivity extends Activity
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mSensores = mSensorManager.getSensorList(Sensor.TYPE_ALL);
 
+        //Inserindo Comentário no código Mirror
+
         List<String> nomeSensores = new ArrayList<String>();
         for (Sensor sensor : mSensores) {
             nomeSensores.add(sensor.getName());
